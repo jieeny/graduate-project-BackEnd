@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lgh.mapper.DoctorMapper">
+    <sql id="selectFields">
+        doctorId,doctorName,post,department,hospital
+    </sql>
+    <select id="getOnlineDoctorInfo" resultType="onlineDoctorInfo">
+        select <include refid="selectFields"></include>
+        from doctor
+        where
+        doctorId = #{doctorId};
+    </select>
+    <select id="getOnlineDoctorInfoList" resultType="onlineDoctorInfo">
+        select <include refid="selectFields"></include>
+        from doctor;
+    </select>
+    <select id="queryDoctorState" resultType="Integer">
+        select state from doctor where doctorId = #{doctorId}
+    </select>
+    <update id="updateDoctorState">
+        update doctor set state = #{state} where doctorId = #{doctorId}
+    </update>
+</mapper>

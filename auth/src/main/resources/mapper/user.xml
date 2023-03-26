@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lgh.mapper.UserMapper">
+
+    <sql id="selectFields">
+        user_id, username, password, email
+    </sql>
+
+    <sql id="insertFields">
+        username, password, user_id
+    </sql>
+
+    <select id="selectUserByUserName" resultType="User">
+        select <include refid="selectFields"></include>
+        from user
+        where username = #{username}
+    </select>
+
+    <select id="selectUserByUserNameAndPassword" resultType="User">
+        select <include refid="selectFields"></include>
+        from user
+        where username = #{arg0} and password = #{arg1}
+    </select>
+
+    <insert id="insertUser" parameterType="User" keyProperty="userid">
+        insert into user (<include refid="insertFields"></include>)
+        values(#{username}, #{password}, #{userid})
+    </insert>
+
+
+</mapper>

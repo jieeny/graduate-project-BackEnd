@@ -1,0 +1,33 @@
+package com.lgh.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.reactive.CorsWebFilter;
+import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
+
+/**
+ * @author 李广辉
+ * @date 2023/2/24 15:48
+ */
+
+//@Configuration
+//public class GatewayConfig {
+//
+//    @Bean
+//    public CorsWebFilter corsWebFilter(){
+//        UrlBasedCorsConfigurationSource source=new UrlBasedCorsConfigurationSource();
+//
+//        //配置跨域
+//        CorsConfiguration corsConfiguration=new CorsConfiguration();
+//        corsConfiguration.addAllowedHeader("*");
+//        corsConfiguration.addAllowedMethod("*");
+//        corsConfiguration.addAllowedOrigin("*");
+//        corsConfiguration.setAllowCredentials(true);        //是否允许携带token跨域
+//
+//        // 任意路径都需要跨域
+//        source.registerCorsConfiguration("/**",corsConfiguration);
+//        return new CorsWebFilter(source);
+//    }
+//
+//}

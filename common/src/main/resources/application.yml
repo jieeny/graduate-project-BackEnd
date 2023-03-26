@@ -1,0 +1,16 @@
+server:
+  # 端口
+  port: 8809
+  tomcat:
+    max-http-form-post-size: -1
+
+
+# DataSourceProperties
+spring:
+  application:
+    name: common
+  redis:
+    host: 114.116.113.91
+    port: 6379
+    password: lghredis
+    timeout: 3000

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lgh.mapper.DoctorMapper">
+
+    <sql id="selectFields">
+        doctorId,doctorName,password
+    </sql>
+
+    <sql id="insertFields">
+        doctorId,doctorName,password
+    </sql>
+
+
+    <select id="queryDoctorByDoctorName" resultType="Doctor">
+        select <include refid="selectFields"></include>
+            from doctor
+        where
+            doctorName = #{doctorName};
+    </select>
+
+    <insert id="insertDoctor" parameterType="Doctor" keyProperty="doctorId">
+        insert into doctor (<include refid="insertFields"></include>)
+        values(#{doctorId}, #{doctorName}, #{password})
+    </insert>
+</mapper>

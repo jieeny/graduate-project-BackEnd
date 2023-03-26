@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/FeignClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FeignClient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FeignProvider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FeignProvider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-datascope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-datascope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heal/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modules-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modules-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modules-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modules-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modules-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modules-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modules-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/modules-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlineDoctor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/onlineDoctor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/prescribe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/prescribe/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-socket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-socket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/doctor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/doctor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/patient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/patient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/visual/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/visual/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

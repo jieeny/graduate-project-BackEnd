@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lgh.mapper.OrderMapper">
+
+    <sql id="selectFields">
+        orderId,orderTime,departmentName,doctorId,doctorName,username,userId,patientName,patientAge,
+            patientSex,description,allergies,orderState
+    </sql>
+
+    <sql id="insertFields">
+        orderId,orderTime,departmentName,doctorId,doctorName,username,userId,patientName,patientAge,
+            patientSex,description,allergies,orderState
+    </sql>
+
+    <select id="queryOrderByOrderId" resultType="OrderInfo">
+        select <include refid="selectFields"></include>
+            from RegistrationOrder
+        where orderId=#{orderId}
+    </select>
+
+    <insert id="insertOrder" parameterType="OrderInfo" keyProperty="orderId">
+        insert into RegistrationOrder (<include refid="insertFields"></include>)
+        values(#{orderId},
+               #{orderTime},#{departmentName},#{doctorId},#{doctorName},#{username},#{userId},#{patientName},#{patientAge},#{patientSex},#{description},#{allergies},#{orderState})
+    </insert>
+
+    <select id="queryOrderListByUserId" resultType="OrderInfo">
+        select <include refid="selectFields"></include>
+        from RegistrationOrder
+        where userId=#{userId}
+    </select>
+
+    <select id="queryOrderListByDoctorId" resultType="OrderInfo">
+        select <include refid="selectFields"></include>
+        from RegistrationOrder
+        where doctorId=#{doctorId}
+    </select>
+</mapper>
